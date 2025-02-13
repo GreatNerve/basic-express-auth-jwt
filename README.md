@@ -7,6 +7,7 @@ This project is a basic authentication system built with Express.js. It provides
 ### Get Current User
 - **URL:** `/api/v1/users/`
 - **Method:** `GET`
+- **Authentication:** Required
 
 ### Register User
 - **URL:** `/api/v1/users/register`
@@ -53,6 +54,7 @@ This project is a basic authentication system built with Express.js. It provides
 ### Find User by Email
 - **URL:** `/api/v1/users/find`
 - **Method:** `GET`
+- **Authentication:** Required
 - **Params:**
     - `username`: The username of the user to find.
     - `email`: The email of the user to find.
