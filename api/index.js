@@ -5,8 +5,8 @@ dotenv.config();
 import express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
-import connectDB from './src/utils/connectDB.js';
-import userRoute from './src/routes/userRoute.js';
+import connectDB from './../src/utils/connectDB.js';
+import userRoute from './../src/routes/userRoute.js';
 
 
 
