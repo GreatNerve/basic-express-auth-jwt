@@ -1,0 +1,7 @@
+.env
+node_modules
+logs
+.vscode
+notepad.md
+TestData
+files
